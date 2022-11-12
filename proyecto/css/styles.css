@@ -841,12 +841,16 @@ input:not(.email-index) {
     width: 70px;
   }
 }
-
+@media (max-width:479px){
+  .info-foto{
+margin: 0 auto;
+  }
+}
 @media (max-width:479px) {
   #galeria2 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
     align-items: center;
   }
 }
@@ -922,6 +926,8 @@ input:not(.email-index) {
 @media (max-width:479px) {
   .direccion {
     font-size: 15px;
+    text-align: center;
+    margin-left: 100px;
   }
 }
 
@@ -932,8 +938,10 @@ input:not(.email-index) {
     background-color: transparent;
     color: black;
     text-align: center;
+    margin-left: 100px;
   }
 }
+
 
 @media (max-width:479px) {
   .input-index {
@@ -949,6 +957,7 @@ input:not(.email-index) {
     background-color: transparent;
     color: black;
     text-align: center;
+    margin-left: 100px;
   }
 }
 
@@ -956,6 +965,7 @@ input:not(.email-index) {
   .input-index {
     font-size: 5px;
     height: 20px;
+    margin-left: 100px;
   }
 }
 
@@ -970,6 +980,11 @@ input:not(.email-index) {
   footer {
     font-size: 10px;
     text-align: center;
+  }
+}
+@media (max-width:479px){
+p.footer-nombre {
+  margin-left: 70px;
   }
 }
 
@@ -1058,7 +1073,7 @@ input:not(.email-index) {
     margin-left: 150px;
   }
 }
-
+/*responsive de blog mobile*/
 @media (max-width:479px) {
   #header .header-menu3 ul li a {
     margin: 1px 5px;
@@ -1091,6 +1106,292 @@ input:not(.email-index) {
 }
 
 @media (max-width:479px) {
+  h1 {
+    font-size: 22px;
+    height: 22px;
+  }
+}
+/*Responsive para tablet index*/
+@media (min-width: 479px) and (max-width: 768px){
+  .contenedor-gral {
+    width: 768px;
+    height: auto;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px){
+  #header {
+  flex-direction: column;
+  height: 50%;
+} 
+}
+@media (min-width: 479px) and (max-width: 768px){ 
+.header-logo img {
+  width: 100%;
+}
+}
+@media (min-width: 479px) and (max-width: 768px){ 
+#header .header-logo img {
+  width: 100%;
+  height: auto;
+}
+}
+@media (min-width: 479px) and (max-width: 768px) {
+  #header .header-menu ul li a {
+    padding: 1px 20px;
+    margin-right: 45px;
+    font-size: 25px;
+    margin-left: -2px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .h1-header {
+    font-size: 30px;
+    text-align: left;
+    height: 38px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .parrafo-index {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeria {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-top: 19px;
+    align-items: center;
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeria img {
+    margin: 18px;
+    align-items: center;
+    width: 100px;
+    margin-left: 35px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeria img {
+    width: 80px;
+    margin-top: -2px;
+    align-items: center;
+
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .titulo-fotos {
+    width: 180px;
+    height: 250px;
+    margin-left: 40px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeria2 img {
+    width: 70px;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px){
+  .info-foto{
+margin: 0 auto;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeria2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px){
+  .descripcion {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .precio-producto {
+    margin-left: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+    display: block;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .produ {
+    display: block;
+    margin-top: -5px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .produ1 {
+    display: block;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .regalo {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .ahorra {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  h4 {
+    font-size: 17px;
+    margin-top: -15px;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px){
+  .produ2 {
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  iframe {
+    margin-left: 165px;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .ig {
+    margin-left: 325px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .direccion {
+    font-size: 19px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .h2-index {
+    font-size: 25px;
+    height: 100%;
+    background-color:transparent;
+    color: black;
+    text-align: center;
+    margin: 2 auto;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px){
+  h5 {
+    font-size: 22px;
+    height: 20px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    margin-left: 00px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .input-index {
+    font-size: 19px;
+    height: 20px;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .parrafo-footer {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  footer {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px){
+p.footer-nombre {
+  font-size: 15px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  footer img {
+    width: 5%;
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .titulo-fotos {
+    margin-top: 15px;
+    border: solid 2px black;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px){
+  iframe{
+    margin-left: 300px;
+  }
+}
+/*responsive tablet de blog*/
+@media (min-width: 479px) and (max-width: 768px) {
+  #header .header-menu3 ul li a {
+    margin: 1px 25px;
+    padding: 5px 6px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeriaBlog img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #galeriaBlog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 439px;
+    gap: 100px;
+    margin:12px auto; 
+  }
+}
+@media (min-width: 479px) and (max-width: 768px) {
+  .fotos-blog {
+    width: 210px;
+    height: 390px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
   h1 {
     font-size: 22px;
     height: 22px;
