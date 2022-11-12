@@ -751,7 +751,7 @@ input:not(.email-index) {
 
 @media (max-width:479px) {
   .contenedor-gral {
-    width: 479px;
+    width: 100%;
     height: auto;
   }
 }
