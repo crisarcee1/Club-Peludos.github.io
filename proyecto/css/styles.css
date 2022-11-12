@@ -805,10 +805,10 @@ input:not(.email-index) {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 5px;
     margin-top: 19px;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 1px;
   }
 }
 
@@ -824,15 +824,15 @@ input:not(.email-index) {
     width: 90px;
     margin-top: -2px;
     align-items: center;
-
-  }
+}
 }
 
 @media (max-width:479px) {
   .titulo-fotos {
     width: 100%;
     height: 150px;
-    margin:40 auto;
+    margin: auto;
+    margin-bottom: 15px;
   }
 }
 
