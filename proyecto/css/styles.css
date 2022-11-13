@@ -139,51 +139,6 @@ h5 {
   border-radius: 15px;
   margin-top: 5px;
 }
-/*#galeria {
-  width: 60%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-top: 55px;
-  align-items: center;
-  margin-left: 210px;
-}
-
-#galeria img {
-  width: 80%;
-  height: auto;
-  padding: 0px auto 50px;
-  margin-left: 20px;
-}
-
-#galeria img:hover {
-  filter: grayscale(1);
-}
-
-#galeria2 {
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-  margin-top: 55px;
-  align-items: center;
-  margin-left: 250px;
-}
-
-.info-foto {
-  text-align: center;
-  width: 100px;
-  height: auto;
-  margin-left: 100px;
-}
-
-#galeria2 img {
-  width: 100%;
-  height: auto;
-  padding: 0px auto 50px;
-  margin-top: 10px;
-}
-*/
 .descripcion {
   text-align: center;
 
@@ -216,7 +171,7 @@ iframe {
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -231,47 +186,69 @@ iframe {
   margin-top: 14px;
 }
 
-footer {
-  text-align: center;
-  display: inline;
-
-}
-
-.ig {
-  margin-left: 635px;
-}
-
-.fb {
-  margin-left: 15px;
-}
-
-.instagram {
-  margin-left: 0px;
-  display: inline;
-  font-weight: bold;
-  align-items: center;
-}
-
-.facebook {
-  align-items: center;
-  display: inline;
-  font-weight: bold;
-}
-
-footer img {
-  width: 2%;
-  height: auto;
-}
-
-.input-index {
-  font-size: 18px;
-  background-color: rgba(251, 165, 45, 1);
-  color: black;
-  font-weight: bold;
-}
-input:hover{
+.pie-pagina{
+  width: 100%;
   background-color: black;
-  color: rgba(251, 165, 45, 1);
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 100px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: rgba(251, 165, 45, 1);
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2{
+  background-color: rgba(251, 165, 45, 1);
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
 }
 /*contacto css*/
 
@@ -757,9 +734,13 @@ input:not(.email-index) {
     background-color: whitesmoke;
   }
 }
+
 @media (max-width:479px) {
-  .galeria2 {
-    display: none;
+  .galeria2{
+width: 100%;
+height: auto;
+display: none;
+
   }
 }
 @media (max-width:479px) {
