@@ -46,7 +46,9 @@ body {
   background-color: orange;
   color: black;
 }
-
+.contenedor-gral{
+  background-color: whitesmoke;
+}
 .h1-header {
   font-size: 45px;
   text-align: center;
@@ -133,66 +135,6 @@ h5 {
   color: black;
 }
 
-.slider {
-  width: 100%;
-  height: 250px;
-  margin: auto;
-  overflow: hidden;
-  background-color: black;
-}
-
-.slider ul {
-  padding: 0;
-  display: flex;
-  width: 400%;
-  animation: cambio 20s infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in;
-}
-
-.slider li {
-  list-style: none;
-  width: 100%;
-}
-
-.slider img {
-  width: 100%;
-}
-
-@keyframes cambio { 
-  0% {
-    margin-left: 0;
-  }
-
-  20% {
-    margin-left: 0;
-  }
-
-  25% {
-    margin-left: -100%;
-  }
-
-  45% {
-    margin-left: -100%;
-  }
-
-  50% {
-    margin-left: -200%;
-  }
-
-  70% {
-    margin-left: -200%;
-  }
-
-  75% {
-    margin-left: -300%;
-  }
-
-  100% {
-    margin-left: -300%;
-  }
-}
-
 #galeria {
   width: 60%;
   display: grid;
@@ -270,7 +212,7 @@ iframe {
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -293,7 +235,6 @@ footer {
 
 .ig {
   margin-left: 635px;
-  margin-top: 15px;
 }
 
 .fb {
@@ -828,7 +769,6 @@ input:not(.email-index) {
 @media (max-width:479px) {
   .galeria img {
     width: 150px;
-    margin-top: -2px;
     align-items: center;
 }
 }
@@ -849,7 +789,6 @@ input:not(.email-index) {
     margin-bottom: 15px;
   }
 }
-
 @media (max-width:479px){
   .info-foto{
 margin: 0 auto;
@@ -996,12 +935,12 @@ margin: 0 auto;
 }
 @media (max-width:479px) {
   .fb {
-    margin-top: 25px;
+    margin-top: 49px;
   }
 }
 @media (max-width:479px) {
   .ig {
-    margin-top: 25px;
+    margin-top: 49px;
   }
 }
 
@@ -1057,12 +996,20 @@ margin: 0 auto;
 
 @media (max-width:363px) {
   iframe {
-    width: 105px;
+    width: 155px;
     height: 85px;
     align-items: center;
+    margin-left: 125px;
   }
 }
-
+@media (max-width:400px) {
+  iframe {
+    width: 155px;
+    height: 85px;
+    align-items: center;
+    margin-left: 125px;
+  }
+}
 @media (max-width:363px) {
   input {
     align-items: center;
@@ -1076,6 +1023,12 @@ margin: 0 auto;
   .parrafo-footer,
   .input-index,
   .footer-nombre {
+    margin-left: 0px;
+  }
+}
+@media (max-width:363px) {
+.ig{
+    align-items: center;
     margin-left: 150px;
   }
 }
