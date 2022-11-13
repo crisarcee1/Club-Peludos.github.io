@@ -1067,7 +1067,6 @@ margin: 0 auto;
   .fotos-blog {
     width: 159px;
     height: 480px;
-    margin-right: 25px;
   }
 }
 @media (max-width:419px) {
@@ -1082,7 +1081,6 @@ margin: 0 auto;
   #galeriaBlog {
     margin-top: 10px;
     margin-bottom: 15px;
-    gap: 25px;
     
   }
 }
