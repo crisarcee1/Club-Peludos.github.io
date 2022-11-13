@@ -881,9 +881,7 @@ margin: 0 auto;
 
 @media (max-width:479px) {
   iframe {
-    margin-left: 165px;
-    width: 150px;
-    height: 150px;
+    display: none;
   }
 }
 
