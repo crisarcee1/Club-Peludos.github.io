@@ -978,7 +978,6 @@ margin: 0 auto;
     margin-right: 25px;
   }
 }
-
 @media (max-width:479px) {
   .whatsapp {
     display: none;
@@ -1026,7 +1025,7 @@ margin: 0 auto;
 /*responsive de blog mobile*/
 @media (max-width:479px) {
   #header .header-menu3 ul li a {
-    margin: 1px 5px;
+    margin: 1px 1px;
     padding: 5px 6px;
     font-size: 18px;
   }
@@ -1050,7 +1049,7 @@ margin: 0 auto;
 }
 @media (max-width:479px) {
   .fotos-blog {
-    width: 210px;
+    width: 199px;
     height: 390px;
   }
 }
