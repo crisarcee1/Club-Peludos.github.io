@@ -752,7 +752,7 @@ input:not(.email-index) {
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     margin-top: 19px;
-    align-items: center;
+    align-items: flex;
     margin:0 auto;
     background-color: whitesmoke;
   }
@@ -773,6 +773,22 @@ input:not(.email-index) {
 }
 
 @media (max-width:479px) {
+  .galeria img {
+    width: 150px;
+    align-items: center;
+}
+}
+@media (max-width:369px) {
+  .galeria img {
+    margin: 1px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+
+  }
+}
+
+@media (max-width:369px) {
   .galeria img {
     width: 150px;
     align-items: center;
@@ -902,16 +918,6 @@ margin: 0 auto;
   }
 }
 
-@media (max-width:479px) {
-  h5 {
-    font-size: 15px;
-    height: 20px;
-    background-color: transparent;
-    color: black;
-    text-align: center;
-  }
-}
-
 @media (max-width:479px) and (min-width:320px) {
   .input-index {
     font-size: 15px;
@@ -941,12 +947,12 @@ margin: 0 auto;
 }
 @media (max-width:479px) {
   .fb {
-    margin-top: 49px;
+    margin-top: 69px;
   }
 }
 @media (max-width:479px) {
   .ig {
-    margin-top: 49px;
+    margin-top: 69px;
   }
 }
 
