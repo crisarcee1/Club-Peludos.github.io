@@ -231,7 +231,7 @@ iframe {
   transition: all 300ms ease;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
-  color: aqua;
+  color: blueviolet;
 }
 .pie-pagina .grupo-2{
   background-color: rgba(251, 165, 45, 1);
