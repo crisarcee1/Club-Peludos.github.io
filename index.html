@@ -11,14 +11,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/.1.1/animate.min.css">
+    <!--boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha38-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha38-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/style.css">
 </head>
 
 <body>
     <section class="contenedor-gral">
         <header id="header">
             <div class="header-logo">
-                <img src="./imagenes/ClubPeludosLogo.jpg" width='400px' height="100px" alt="portada">
+                <img src="./imagenes/ClubPeludosLogo.jpg" width='350px' height="100px" alt="portada">
             </div>
             <nav class="header-menu">
                 <ul>
@@ -30,61 +38,65 @@
             </nav>
         </header>
         <h1 class="h1-header animate__animated animate__heartBeat">¡Tenemos todo lo que vos y tu mascota necesitan!</h1>
-        <div class="slider">
-            <ul>
-                <li> <img src="./imagenes//portada 1 actualizada.jpg" alt="portada" class="portada" height="250px">
-                </li>
-                <li> <img src="./imagenes/PORTADA 3 .jpg" alt="portada" height="250px"> </li>
-                <li> <img src=".//imagenes/ultima imagen.jpg" alt="portada" class="portada" height="250px"> </li>
-                <li> <img src="./imagenes/PORTADAAAA.jpg" alt="portada" class="portada" height="250px"> </li>
-            </ul>
-        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/portada 1 actualizada.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/PORTADA 3 .jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/ultima imagen.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
         </div>
         <p class="parrafo-index">
             Promociones del mes
         </p>
-        <section id="galeria">
+        <!-- <section id="galeria">
             <div class="titulo-fotos">
                 <span class="regalo">3kg de REGALO! 🎁</span>
                 <span class="ahorra">¡Ahorrá⚡$1.982!</span>
                 <a href="#"><img src="./imagenes/producto 1.jpg" alt="Comida de perro"></a>
                 <span class="precio-producto">$9000</span>
-                <h4 class="produ"> Maintenance Criadores </h4>
+                <h class="produ"> Maintenance Criadores </h>
             </div>
             <div class="titulo-fotos">
                 <span class="regalo">2kg de REGALO! 🎁</span>
                 <span class="ahorra">¡Ahorrá⚡$982!</span>
                 <a href="#"><img src="./imagenes/producto 2.jpg" alt="Comida de perro"></a>
                 <span class="precio-producto">$7200</span>
-                <h4 class="produ"> Alimento Old Prince</h4>
+                <h class="produ"> Alimento Old Prince</h>
             </div>
             <div class="titulo-fotos">
                 <span class="regalo">5kg de REGALO! 🎁</span>
                 <span class="ahorra">¡Ahorrá⚡$1.580!</span>
                 <a href="#"><img src="./imagenes/producto 3.jpg" alt="Comida de perro"></a>
                 <span class="precio-producto">$6500</span>
-                <h4 class="produ"> Alimento Greendog</h4>
+                <h class="produ"> Alimento Greendog</h>
             </div>
             <div class="titulo-fotos">
                 <span class="regalo">Correa de REGALO! 🎁</span>
                 <span class="ahorra">¡Ahorrá⚡$950!</span>
                 <a href="#"><img src="./imagenes//pechera 2.jpg" alt="Pechera "></a>
                 <span class="precio-producto">$3150</span>
-                <h4 class="produ"> Pechera Ranger Force</h4>
+                <h class="produ"> Pechera Ranger Force</h>
             </div>
             <div class="titulo-fotos">
                 <span class="regalo">Aprovecha 2x1! 🔥 </span>
                 <span class="ahorra">¡Ahorrá⚡$390!</span>
                 <a href="#"> <img src="./imagenes/cepillo gato.jpg" alt="Cepillo de gato"><a>
                         <span class="precio-producto">$875</span>
-                        <h4 class="produ1"> Cepillo para gato</h4>
+                        <h class="produ1"> Cepillo para gato</h>
             </div>
             <div class="titulo-fotos">
                 <span class="regalo">ENVIO GRATIS! 🎁</span>
                 <span class="ahorra">¡Ahorrá⚡$300!</span>
                 <img src="./imagenes/pelotatrenzada.jpg" alt="Pelota">
                 <span class="precio-producto">$699</span>
-                <h4 class="produ"> Pelota trenzada</h4>
+                <h class="produ"> Pelota trenzada</h>
             </div>
         </section>
         <p class="ver-mas"><a href="#">Ver más</a></p>
@@ -107,34 +119,95 @@
                 <p class="descripcion">📌Córdoba.</p>
             </div>
         </section>
+    -->
+        <div class="galeria">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 1.jpg" alt="">
+                        <p>Maintenance criadores</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 2.jpg" alt="">
+                        <p>Old prince</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 3.jpg" alt="">
+                        <p>GreenDog</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 4.jpg" alt="">
+                        <p>Purina catchow</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 5.jpg" alt="">
+                        <p>Unik alimento</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/producto 4.jpg" alt="">
+                        <p>Purina catchow</p>
+                        <Agregar al carrito class="btn btn-dark" type="submit">Agregar al carrito</Agregar al carrito>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="ver-mas"><a href="#">Ver más</a></p>
+        <div class="galeria2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imagenes/ubicacion.png" alt="" width="30%">
+                        <p>Cordoba capital</p>
 
-    </section>
-    <h2 class="h2-index">
-        Acercate a nuestra sucursal
-    </h2>
-    <p class="direccion">Av.Colón 857 Córdoba (5000)</p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.14890326377!2d-64.19718868515848!3d-31.410023303086422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987e1bfb0b19%3A0x3953ce74c27a4f06!2sAv.%20Col%C3%B3n%20857%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1667185052441!5m2!1ses!2sar"
-        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=5493516744281&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
-        class="whatsapp" target="_blank">
-        <i class="fa fa-whatsapp mi-whatsapp"></i>
-    </a>
-    <footer>
-        <h5> Suscribite a nuestra newsletter</h5>
-        <form action="input" class="input-index">
-            <label for="email">Ingrese su Mail</label>
-            <input type="email" name="email" id="email" placeholder="Mail" class="email-index">
-            <input type="submit" name="email" id="email" class="email-index">
-        </form>
-        <!--  <p class="parrafo-footer">Seguinos</p>-->
-        <a href="https://www.instagram.com/clubpeludospetshop/" target="_blank"><img src="./imagenes/instagram.png" alt="instagram" class="ig" ></a>
-        <a href="#"><img src="./imagenes/facebook.png" alt="facebook" class="fb"></a>
-        <p class="footer-nombre">Christopher arce &copy;2022</p>
-    </footer>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/camioncito.png" alt="" width="30%">
+                        <p>Correo argentino</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagenes/cajitas.png" alt="" width="30%">
+                        <p>Envios a todo el pais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="h2-index">
+            Acercate a nuestra sucursal
+        </h2>
+        <p class="direccion">Av.Colón 857 Córdoba (5000)</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305.1890326377!2d-6.1971886851588!3d-31.1002330308622!2m3!1f0!2f0!3f0!3m2!1i102!2i768!f13.1!3m3!1m2!1s0x932987e1bfb0b19%3A0x3953ce7c27af06!2sAv.%20Col%C3%B3n%20857%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!v16671850521!5m2!1ses!2sar"
+            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=5935167281&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
+            class="whatsapp" target="_blank">
+            <i class="fa fa-whatsapp mi-whatsapp"></i>
+        </a>
+        <footer>
+            <h5> Suscribite a nuestra newsletter</h5>
+            <form action="input" class="input-index">
+                <label for="email">Ingrese su Mail</label>
+                <input type="email" name="email" id="email" placeholder="Mail" class="email-index">
+                <input type="submit" name="email" id="email" class="email-index">
+            </form>
+            <!--  <p class="parrafo-footer">Seguinos</p>-->
+            <a href="https://www.instagram.com/clubpeludospetshop/" target="_blank"><img src="./imagenes/instagram.png"
+                    alt="instagram" class="ig"></a>
+            <a href="#"><img src="./imagenes/facebook.png" alt="facebook" class="fb"></a>
+            <p class="footer-nombre">Christopher arce &copy;2022</p>
+        </footer>
     </section>
 </body>
 
