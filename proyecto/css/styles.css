@@ -134,8 +134,12 @@ h5 {
   background-color: rgba(251, 165, 45, 1);
   color: black;
 }
-
-#galeria {
+.galeria img{
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+/*#galeria {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -179,7 +183,7 @@ h5 {
   padding: 0px auto 50px;
   margin-top: 10px;
 }
-
+*/
 .descripcion {
   text-align: center;
 
@@ -762,6 +766,8 @@ input:not(.email-index) {
   .galeria img {
     margin: 1px;
     align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
 
   }
 }
