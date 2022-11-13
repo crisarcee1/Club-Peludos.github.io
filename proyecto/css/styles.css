@@ -1050,8 +1050,10 @@ margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 439px;
+    height: auto;
     gap: 5px;
     margin:12px auto; 
+    width: 100%;
   }
 }
 @media (max-width:479px) and (min-width:392px){
@@ -1060,14 +1062,15 @@ margin: 0 auto;
     height: 390px;
   }
 }
-@media (max-width:392px) {
+
+@media (max-width:419px) {
   .fotos-blog {
     width: 159px;
     height: 480px;
     margin-right: 25px;
   }
 }
-@media (max-width:392px) {
+@media (max-width:419px) {
   #galeriaBlog img {
     width: 100px;
     height: 100px;
