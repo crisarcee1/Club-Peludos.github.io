@@ -131,12 +131,6 @@ h5 {
   margin: -5px;
 }
 
-.precio-producto {
-  margin-left: 85px;
-  background-color: rgba(251, 165, 45, 1);
-  color: black;
-}
-
 .galeria img {
   border: 1px solid black;
   border-radius: 15px;
@@ -145,7 +139,6 @@ h5 {
 
 .descripcion {
   text-align: center;
-
 }
 
 .comedor-auto {
@@ -366,24 +359,27 @@ label {
 .nombreContacto {
   margin-left: 0px;
 }
+
 /*responsive de contacto mobile*/
-@media (max-width:479px){
-  #header .header-menu1 ul li a{
-  text-decoration: none;
-  margin: 1px 5px;
-  margin-right: 0px;
-  background-color: black;
-  color: white;
-  padding: 5px 15px;
-  border-radius: 20px;
-  font-size: 15px;
+@media (max-width:479px) {
+  #header .header-menu1 ul li a {
+    text-decoration: none;
+    margin: 1px 5px;
+    margin-right: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
   }
 }
-@media (max-width:479px){
-  .titulo-principal__header{
+
+@media (max-width:479px) {
+  .titulo-principal__header {
     font-size: 25px;
   }
 }
+
 /*Css de catalogo*/
 #header .header-menu2 ul {
   display: flex;
@@ -804,7 +800,6 @@ input:not(.email-index) {
     align-items: center;
     border: 1px solid black;
     border-radius: 15px;
-
   }
 }
 
@@ -814,13 +809,15 @@ input:not(.email-index) {
     align-items: center;
   }
 }
-.precio{
+
+.precio {
   color: black;
   background-color: yellow;
   width: 52px;
   margin: auto;
   margin-top: -18px;
 }
+
 @media (max-width:479px) {
   .btn-dark {
     width: 107px;
@@ -1113,8 +1110,9 @@ input:not(.email-index) {
     margin-left: 28px;
   }
 }
-@media (max-width:419px){
-  #galeriaBlog{
+
+@media (max-width:419px) {
+  #galeriaBlog {
     gap: 30px;
   }
 }
