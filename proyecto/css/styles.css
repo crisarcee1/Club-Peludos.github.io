@@ -814,12 +814,19 @@ input:not(.email-index) {
     align-items: center;
   }
 }
-
+.precio{
+  color: black;
+  background-color: yellow;
+  width: 52px;
+  margin: auto;
+  margin-top: -18px;
+}
 @media (max-width:479px) {
   .btn-dark {
-    width: 95px;
-    height: 60px;
-    margin-bottom: 15px;
+    width: 107px;
+    height: 29px;
+    margin-bottom: 6px;
+    font-size: 10px;
   }
 }
 
@@ -1020,12 +1027,6 @@ input:not(.email-index) {
   .input-index {
     margin-bottom: 55px;
     margin-right: 25px;
-  }
-}
-
-@media (max-width:479px) {
-  .whatsapp {
-    display: none;
   }
 }
 
