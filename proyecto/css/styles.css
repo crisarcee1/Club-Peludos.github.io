@@ -1540,8 +1540,31 @@ input:not(.email-index) {
 }
 @media (max-width:479px){
   th,td{
+ font-size: 26px;
+ padding: 0 ;
+  }
+}
+@media (max-width:454px){
+  th,td{
+ font-size: 22px;
+ padding: 0 ;
+  }
+}
+@media (max-width:382px){
+  th,td{
+ font-size: 20px;
+ padding: 0 ;
+  }
+}
+@media (max-width:353px){
+  th,td{
  font-size: 15px;
  padding: 0 ;
+  }
+}
+@media (max-width:276px){
+  td{
+    font-size: 10px;
   }
 }
 @media (max-width:479px){
@@ -1558,10 +1581,5 @@ height: auto;
 @media (max-width:276px){
   .celdas img{
     width: 40px;
-  }
-}
-@media (max-width:276px){
-  td{
-    font-size: 10px;
   }
 }
