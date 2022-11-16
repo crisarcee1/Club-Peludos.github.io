@@ -260,26 +260,6 @@ iframe {
 
 /*contacto css*/
 
-#header .header-menu1 ul {
-  display: flex;
-  list-style: none;
-}
-
-#header .header-menu1 ul li a {
-  text-decoration: none;
-  margin: 1px 5px;
-  margin-right: 100px;
-  background-color: black;
-  color: white;
-  padding: 12px 15px;
-  border-radius: 20px;
-  font-size: 20px;
-}
-
-#header .header-menu1 ul li a:hover {
-  background-color: orange;
-  color: black;
-}
 
 .titulo-principal__header {
   font-size: 40px;
@@ -362,21 +342,16 @@ label {
 
 /*responsive de contacto mobile*/
 @media (max-width:479px) {
-  #header .header-menu1 ul li a {
-    text-decoration: none;
-    margin: 1px 5px;
-    margin-right: 0px;
-    background-color: black;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 15px;
+  .texto-secundario{
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
 @media (max-width:479px) {
   .titulo-principal__header {
     font-size: 25px;
+    height: 28px;
   }
 }
 
@@ -661,6 +636,7 @@ label {
   font-size: 20px;
   width: 125px;
   margin-left: 630px;
+  margin-bottom: 10px;
 }
 
 .form label {
@@ -1446,7 +1422,7 @@ input:not(.email-index) {
   }
 }
 
-/*responsive de contacto*/
+/*responsive de contacto y equipo*/
 @media (max-width:479px) {
   #header .header-menu4 ul li a {
     text-decoration: none;
@@ -1463,37 +1439,32 @@ input:not(.email-index) {
 @media (max-width:395px) {
   #header .header-menu4 ul li a {
     text-decoration: none;
-    margin: 1px 5px;
-    margin-right: 5px;
+    margin: 0 auto;
     background-color: black;
     color: white;
-    padding: 1px 1px;
+    padding: 5px 15px;
     border-radius: 8px;
     font-size: 13px;
   }
 }
-
-@media (max-width:281px) {
+@media (max-width:353px) {
   #header .header-menu4 ul li a {
     text-decoration: none;
     margin: 0 auto;
-    margin-right: 5px;
     background-color: black;
     color: white;
-    padding: 1px 1px;
+    padding: 5px 10px;
     border-radius: 8px;
     font-size: 12px;
   }
 }
-
-@media (max-width:244px) {
+@media (max-width:301px) {
   #header .header-menu4 ul li a {
     text-decoration: none;
     margin: 0 auto;
-    margin-right: 5px;
     background-color: black;
     color: white;
-    padding: 1px 1px;
+    padding: 5px 10px;
     border-radius: 8px;
     font-size: 10px;
   }
@@ -1553,5 +1524,23 @@ input:not(.email-index) {
     width: 102px;
     font-size: 10px;
     margin-bottom: 10px;
+  }
+}
+/*Responsive mobile de catalogo*/
+@media (max-width:479px){
+  .textoCatalogo{
+    height: auto;
+  }
+}
+@media (max-width:479px){
+  table{
+ height: auto;
+ margin: 0 auto;   
+  }
+}
+@media (max-width:479px){
+  th,td{
+ font-size: 15px;
+ padding: 0 ;
   }
 }
