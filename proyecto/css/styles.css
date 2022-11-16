@@ -1116,7 +1116,21 @@ input:not(.email-index) {
     gap: 30px;
   }
 }
-
+@media (max-width:370px) {
+p{
+    font-size: 16px;
+    }
+}
+@media (max-width:370px) {
+  #galeriaBlog{
+    gap: 0;
+    }
+  }
+  @media (max-width:370px){
+    .fotos-blog{
+      margin-left: 10px;
+    }
+  }
 @media (max-width:419px) {
   #galeriaBlog {
     margin-top: 10px;
