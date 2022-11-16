@@ -1546,8 +1546,8 @@ input:not(.email-index) {
 }
 @media (max-width:479px){
   .celdas{
- width: 100%;
- height: auto;   
+width: 100%;
+height: auto;   
   }
 }
 @media (max-width:479px){
@@ -1555,8 +1555,13 @@ input:not(.email-index) {
     width: 52px;
   }
 }
-@media (max-width:479px){
-  .bozal img{ 
-    width: 5px;
+@media (max-width:276px){
+  .celdas img{
+    width: 40px;
+  }
+}
+@media (max-width:276px){
+  td{
+    font-size: 10px;
   }
 }
