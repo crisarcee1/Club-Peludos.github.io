@@ -1075,6 +1075,7 @@ input:not(.email-index) {
   .fotos-blog {
     width: 159px;
     height: 480px;
+    margin-left: 5px;
   }
 }
 
@@ -1291,13 +1292,6 @@ input:not(.email-index) {
   }
 }
 
-@media (min-width: 479px) and (max-width: 768px) {
-  iframe {
-    margin-left: 165px;
-    width: 150px;
-    height: 150px;
-  }
-}
 
 @media (min-width: 479px) and (max-width: 768px) {
   .ig {
