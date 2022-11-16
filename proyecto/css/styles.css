@@ -1544,3 +1544,19 @@ input:not(.email-index) {
  padding: 0 ;
   }
 }
+@media (max-width:479px){
+  .celdas{
+ width: 100%;
+ height: auto;   
+  }
+}
+@media (max-width:479px){
+  .celdas img{
+    width: 52px;
+  }
+}
+@media (max-width:479px){
+  .bozal img{ 
+    width: 5px;
+  }
+}
