@@ -1116,21 +1116,25 @@ input:not(.email-index) {
     gap: 30px;
   }
 }
+
 @media (max-width:370px) {
-p{
+  p {
     font-size: 16px;
-    }
+  }
 }
+
 @media (max-width:370px) {
-  #galeriaBlog{
+  #galeriaBlog {
     gap: 0;
-    }
   }
-  @media (max-width:370px){
-    .fotos-blog{
-      margin-left: 10px;
-    }
+}
+
+@media (max-width:370px) {
+  .fotos-blog {
+    margin-left: 10px;
   }
+}
+
 @media (max-width:419px) {
   #galeriaBlog {
     margin-top: 10px;
@@ -1439,5 +1443,115 @@ p{
   h1 {
     font-size: 22px;
     height: 22px;
+  }
+}
+
+/*responsive de contacto*/
+@media (max-width:479px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 1px 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:395px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 1px 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width:281px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:244px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border-radius: 8px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width:479px) {
+  .form label {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:479px) {
+  .titulo-equipo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:304px) {
+  .titulo-equipo {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:228px) {
+  .titulo-equipo {
+    font-size: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width:479px) {
+  .texto-equipo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:479px) {
+  #header .logo__header img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width:479px) {
+  .form input:not([type="submit"]) {
+    margin: 0px auto;
+    width: 175px;
+    height: 35px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:479px) {
+  .form input[type="submit"] {
+    margin: 0px auto;
+    width: 102px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
 }
