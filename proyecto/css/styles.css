@@ -943,7 +943,7 @@ input:not(.email-index) {
 
 @media (max-width:479px) {
   footer img {
-    width: 5%;
+    width: 50%;
   }
 }
 
@@ -1024,6 +1024,11 @@ input:not(.email-index) {
   .ig {
     align-items: center;
     margin-left: 150px;
+  }
+}
+@media(max-width:479px){
+  footer img{
+width: 150px;
   }
 }
 
@@ -1358,7 +1363,7 @@ input:not(.email-index) {
 
 @media (min-width: 479px) and (max-width: 768px) {
   footer img {
-    width: 5%;
+    width: 20%;
     margin-top: 45px;
   }
 }
