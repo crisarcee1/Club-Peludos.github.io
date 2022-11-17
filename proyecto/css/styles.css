@@ -1364,7 +1364,11 @@ width: 150px;
 @media (min-width: 479px) and (max-width: 768px) {
   footer img {
     width: 20%;
-    margin-top: 45px;
+  }
+}
+@media (max-width: 479px) {
+  footer img {
+    width: 10%;
   }
 }
 
