@@ -185,7 +185,7 @@ iframe {
 
 .pie-pagina {
   width: 100%;
-  background-color: black;
+  background-color: rgba(251, 165, 45, 1);
 }
 
 .pie-pagina .grupo-1 {
@@ -229,7 +229,7 @@ iframe {
   line-height: 45px;
   color: #fff;
   margin-right: 10px;
-  background-color: rgba(251, 165, 45, 1);
+  background-color: black;
   text-align: center;
   transition: all 300ms ease;
 }
@@ -239,7 +239,7 @@ iframe {
 }
 
 .pie-pagina .grupo-2 {
-  background-color: rgba(251, 165, 45, 1);
+  background-color: black;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
