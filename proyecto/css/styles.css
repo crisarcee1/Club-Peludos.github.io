@@ -715,7 +715,28 @@ input:not(.email-index) {
     margin-left: -2px;
   }
 }
-
+@media (min-width:856px) and (max-width:1220px) {
+  #header .header-menu ul li a{
+    text-decoration: none;
+    margin: 2px 5px;
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+  } 
+}
+@media (min-width:768px) and (max-width:856px) {
+  #header .header-menu ul li a{
+    text-decoration: none;
+    margin: 2px 5px;
+    background-color: black;
+    color: white;
+    padding: 12px 5px;
+    border-radius: 20px;
+    font-size: 20px;
+  } 
+}
 @media (max-width:479px) {
   .h1-header {
     font-size: 17px;
