@@ -8,7 +8,8 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
 
     <title>Unite al equipo</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="../sass/main.css">
     <link rel="shortcut icon" href="../imagenes/clubpeludosmini.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
@@ -32,31 +33,35 @@
             </div>
         </header>
         <article>
-            <h1 class="titulo-equipo animate__animated animate__heartBeat">¿Queres trabajar con nosotros?</h1>
-
-
-            <h2 class="texto-equipo">Estamos buscando estudiantes de veterinaria y auxiliar de veterinaria en
-                Córdoba.
+            <div class="h-equipo">
+                <h1 class="titulo-equipo animate__animated animate__heartBeat">¿Queres trabajar con nosotros?</h1>
+            </div>
+            <h2 class="equipo">
+                <h2 class="texto-equipo">Estamos buscando estudiantes de veterinaria y auxiliar de veterinaria en
+                    Córdoba.
+                </h2>
             </h2>
-        </article>
 
-        <form class='form'>
-            <label for="text">Nombre</label>
-            <input id='text' type="text" placeholder='Ingrese su nombre' required>
-            <label for="Mail">Mail</label>
-            <input id='text' type="text" placeholder='Ingrese su mail' required>
-            <label for="number">Numero de telefono</label>
-            <input id="number" type="number" placeholder="Ingrese su número de telefono" required>
-            <label for="Cv">Subir Cv</label>
-            <input type="file" name="cv" id="cv">
-            <form>
-                <section id="envio"> <input type="submit" value='Enviar'> </section>
-            </form>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-            <a href="https://api.whatsapp.com/send?phone=5493516744281&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
-                class="whatsapp" target="_blank">
-                <i class="fa fa-whatsapp mi-whatsapp"></i>
-            </a>
+        </article>
+        <div class="formularioEquipo">
+            <form class='form'>
+                <label for="text">Nombre</label>
+                <input id='text' type="text" placeholder='Ingrese su nombre' required>
+                <label for="Mail">Mail</label>
+                <input id='text' type="text" placeholder='Ingrese su mail' required>
+                <label for="number">Numero de telefono</label>
+                <input id="number" type="number" placeholder="Ingrese su número de telefono" required>
+                <label for="Cv">Subir Cv</label>
+                <input type="file" name="cv" id="cv">
+                <form>
+                    <section id="envio"> <input type="submit" value='Enviar'> </section>
+                </form>
+        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=5493516744281&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
+            class="whatsapp" target="_blank">
+            <i class="fa fa-whatsapp mi-whatsapp"></i>
+        </a>
 
     </div>
     <footer class="pie-pagina">

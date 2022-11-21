@@ -1,0 +1,131 @@
+/*Css de catalogo*/
+#header .header-menu2 ul {
+    display: flex;
+    list-style: none;
+}
+
+#header .header-menu2 ul li a {
+    text-decoration: none;
+    margin: 1px 5px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+
+    &:hover {
+        background-color: orange;
+        color: black;
+    }
+}
+
+
+.textoCatalogo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    background-color: black;
+    margin-bottom: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 355px;
+}
+
+table {
+  width: 50%;
+}
+
+td {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+th,
+td {
+  font-size: 20px;
+  padding: 10px;
+}
+
+th {
+  background-color: rgba(251, 165, 45, 1);
+  text-align: center;
+}
+
+.bozal {
+  width: 150px;
+}
+
+.pretal {
+  width: 150px;
+}
+
+.hueso {
+  width: 150px;
+}
+
+.pelota {
+  width: 150px;
+}
+
+.juguetenudo {
+  width: 150px;
+}
+
+.transportadora {
+  width: 150px;
+}
+
+.comedor {
+  width: 150px;
+}
+
+.comedor-automatico {
+  width: 150px;
+}
+
+.bandeja {
+  width: 150px;
+}
+
+.cepillogato {
+  width: 150px;
+}
+
+.Shampoo {
+  width: 150px;
+}
+
+.collar {
+  width: 150px;
+}
+
+.pechera {
+  width: 150px;
+}
+
+.mochila {
+  width: 100px;
+  margin-left: 25px;
+}
+
+.alimento {
+  width: 150px;
+}
+
+.alimento1 {
+  width: 150px;
+}
+
+.alimento2 {
+  width: 130px;
+}
+
+.footerCatalogo {
+  font-size: 10px;
+  text-align: center;
+}

@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'contacto';
+@import 'equipo';
+@import 'blog';
+@import 'catalogo';
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contenedor-gral {
+    background-color: whitesmoke;
+}
+
+#header {
+    width: 100%;
+    background-color: rgba(251, 165, 45, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+
+    .header-logo {
+        color: wheat;
+        padding: 10px 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-menu ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .header-menu ul li a {
+        text-decoration: none;
+        margin: 2px 5px;
+        margin-right: 120px;
+        background-color: black;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 20px;
+        font-size: 20px;
+
+        &:hover {
+            background-color: orange;
+            color: black;
+        }
+    }
+}
+
+h1 {
+    background-color: black;
+}
+
+.h-index {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    height: auto;
+    margin-top: 0px;
+}
+
+.p-index p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: auto;
+    font-size: 35px;
+}
+
+.galeria img {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.titulo-fotos {
+    width: 220px;
+    margin-left: 50px;
+    height: 280px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+
+    a {
+        color: rgba(251, 165, 45, 1);
+    }
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.produ1 {
+    margin: -5px;
+}
+
+.acercate h3{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 20px;   
+}
+.direccionLocal p  {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.iframe-h {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgba(251, 165, 45, 1);
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+
+    .grupo-1 .box figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grupo-1 .box figure img {
+        width: 100px;
+    }
+
+    .grupo-1 .box h2 {
+        color: #FFF;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .grupo-1 .box p {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+
+    .grupo-1 .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: black;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+
+    .grupo-1 .red-social a:hover {
+        color: blueviolet;
+    }
+
+
+    .grupo-2 {
+        background-color: black;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .grupo-2 small {
+        font-size: 15px;
+    }
+}
+
+
+.whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 51px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+    .whatsapp:hover {
+        text-decoration: none;
+        color: #25d366;
+        background-color: #fff;
+    }
+
+    .mi-whatsapp {
+        margin-top: 14px;
+    }
+}
+
+@import 'responsive';

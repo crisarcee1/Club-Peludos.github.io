@@ -1,0 +1,78 @@
+/*Css de blog*/
+#header .header-menu3 ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#header .header-menu3 ul li a {
+    text-decoration: none;
+    margin: 1px 5px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+
+    &:hover {
+        background-color: orange;
+        color: black;
+    }
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+#galeriaBlog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 850px;
+    margin-left: 300px;
+    margin-top: 40px;
+
+    img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .fotos-blog {
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: white;
+
+        .pirotecnia {
+            margin-left: 55px;
+        }
+
+        .adaptacion {
+            margin-left: 55px;
+        }
+
+        .viaje {
+            margin-left: 55px;
+        }
+
+        .ansiedad {
+            margin-left: 55px;
+        }
+
+        .bozal {
+            margin-left: 40px;
+        }
+
+        .bozal-text {
+            text-align: center;
+        }
+
+        .leer-mas {
+            color: darkblue;
+            text-align: center;
+        }
+    }
+}
