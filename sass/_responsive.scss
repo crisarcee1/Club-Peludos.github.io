@@ -1,4 +1,4 @@
-@media (max-width: 479px) {
+@media (max-width: 576px) {
     .contenedor-gral {
         width: 100%;
         height: auto;
@@ -229,7 +229,7 @@
         margin-bottom: 10px;
     }
 
-    .textoCatalogo {
+   .h-catalogo h1{
         height: auto;
     }
 
@@ -608,9 +608,7 @@
         border: solid 2px black;
     }
 
-    iframe {
-        margin-left: 300px;
-    }
+    
 
     /*responsive tablet de blog*/
     #header .header-menu3 ul li a {
