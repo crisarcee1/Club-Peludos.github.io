@@ -188,7 +188,6 @@ input:not(.email-index) {
   display: flex;
   list-style: none;
 }
-
 #header .header-menu3 ul li a {
   text-decoration: none;
   margin: 1px 5px;
@@ -291,7 +290,13 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin-left: 355px;
+  margin: 0 auto;
+}
+
+.tablas table th td {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 td {
@@ -606,6 +611,14 @@ h1 {
     font-size: 15px;
     margin-left: -2px;
   }
+  .texto-secundario {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .titulo-principal__header {
+    font-size: 25px;
+    height: 28px;
+  }
   .h-index h1 {
     display: flex;
     justify-content: center;
@@ -738,11 +751,11 @@ h1 {
   /*equipo*/
   #header .header-menu4 ul li a {
     text-decoration: none;
-    margin: 1px 5px;
+    margin: 1px 3px;
     margin-right: 5px;
     background-color: black;
     color: white;
-    padding: 1px 1px;
+    padding: 5px 1px;
     border-radius: 8px;
     font-size: 20px;
   }
@@ -753,7 +766,8 @@ h1 {
     display: flex;
     justify-content: center;
     height: auto;
-    font-size: 20px;
+    font-size: 25px;
+    width: 100%;
   }
   .h2-equipo h2 {
     display: flex;
@@ -773,8 +787,8 @@ h1 {
   }
   .form input[type=submit] {
     margin: 0px auto;
-    width: 102px;
-    font-size: 10px;
+    width: 110px;
+    font-size: 23px;
     margin-bottom: 10px;
   }
   .h-catalogo h1 {
@@ -796,6 +810,38 @@ td {
   .celdas img {
     width: 52px;
   }
+  /*Blog*/
+  #header .header-menu3 ul li a {
+    margin: 1px 1px;
+    padding: 5px 6px;
+    font-size: 20px;
+  }
+  .fotos-blog {
+    width: 199px;
+    height: 390px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1440px) {
+  .form input:not([type=submit]) {
+    margin: 0px auto;
+    width: 175px;
+    height: 35px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .h-equipo h1 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: 37px;
+    width: 100%;
+  }
+  .form input[type=submit] {
+    margin: 0px auto;
+    width: 110px;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
 }
 @media (min-width: 856px) and (max-width: 1220px) {
   #header .header-menu ul li a {
@@ -811,7 +857,7 @@ td {
 @media (min-width: 768px) and (max-width: 856px) {
   #header .header-menu ul li a {
     text-decoration: none;
-    margin: 2px 5px;
+    margin: 2px 3px;
     background-color: black;
     color: white;
     padding: 12px 5px;
@@ -826,8 +872,6 @@ td {
     border: 1px solid black;
     border-radius: 15px;
   }
-}
-@media (max-width: 369px) {
   .galeria img {
     width: 150px;
     align-items: center;
@@ -838,6 +882,9 @@ td {
     font-size: 15px;
     height: 20px;
     text-align: center;
+  }
+  label {
+    display: none;
   }
 }
 @media (max-width: 430px) {
@@ -853,19 +900,12 @@ td {
     margin-left: 100px;
   }
 }
-@media (max-width: 479px) and (min-width: 320px) {
-  label {
-    display: none;
-  }
-}
 @media (max-width: 400px) {
   h5 {
     font-size: 10px;
     display: flex;
     text-align: center;
   }
-}
-@media (max-width: 400px) {
   .input-index {
     margin-bottom: 55px;
     margin-right: 25px;
@@ -875,31 +915,6 @@ td {
   input {
     align-items: center;
     margin-left: 5px;
-  }
-}
-@media (max-width: 363px) {
-  h5,
-.parrafo-footer,
-.input-index,
-.footer-nombre {
-    margin-left: 0px;
-  }
-}
-@media (max-width: 363px) {
-  .ig {
-    align-items: center;
-    margin-left: 150px;
-  }
-}
-@media (max-width: 479px) and (min-width: 392px) {
-  #header .header-menu3 ul li a {
-    margin: 1px 1px;
-    padding: 5px 6px;
-    font-size: 15px;
-  }
-  .fotos-blog {
-    width: 199px;
-    height: 390px;
   }
 }
 @media (max-width: 391px) {
@@ -920,10 +935,6 @@ td {
     height: 100px;
     border-radius: 25px;
     margin-left: 28px;
-  }
-}
-@media (max-width: 419px) {
-  #galeriaBlog {
     gap: 30px;
   }
 }
@@ -931,15 +942,11 @@ td {
   p {
     font-size: 16px;
   }
-}
-@media (max-width: 370px) {
-  #galeriaBlog {
-    gap: 0;
-  }
-}
-@media (max-width: 370px) {
   .fotos-blog {
     margin-left: 10px;
+  }
+  #galeriaBlog {
+    gap: 0;
   }
 }
 @media (max-width: 419px) {
@@ -949,7 +956,7 @@ td {
   }
 }
 /*Responsive para tablet */
-@media (min-width: 479px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .contenedor-gral {
     width: 768px;
     height: auto;
@@ -1117,11 +1124,11 @@ td {
   }
   h1 {
     font-size: 22px;
-    height: 22px;
+    height: auto;
   }
   /*responsive de contacto y equipo*/
 }
-@media (max-width: 395px) {
+@media (max-width: 1270px) and (min-width: 868px) {
   #header .header-menu4 ul li a {
     text-decoration: none;
     margin: 0 auto;
@@ -1129,7 +1136,37 @@ td {
     color: white;
     padding: 5px 15px;
     border-radius: 8px;
-    font-size: 13px;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 868px) and (min-width: 768px) {
+  #header .header-menu4 ul li a {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 1270px) {
+  .h-catalogo h1 {
+    height: auto;
   }
 }
 @media (max-width: 353px) {
@@ -1205,13 +1242,25 @@ td {
   }
 }
 /*responsive de contacto mobile*/
-@media (max-width: 479px) {
-  .texto-secundario {
-    text-align: center;
+@media (min-width: 768px) and (max-width: 1440px) {
+  #galeriaBlog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 785px;
     margin: 0 auto;
+    margin-top: 40px;
   }
-  .titulo-principal__header {
-    font-size: 25px;
-    height: 28px;
+  #header .header-menu3 ul li a {
+    text-decoration: none;
+    margin: 1px 2px;
+    background-color: black;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  .bozales {
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

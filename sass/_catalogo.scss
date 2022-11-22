@@ -20,7 +20,6 @@
     }
 }
 
-
 .h-catalogo h1 {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -39,10 +38,14 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin-left: 355px;
+  margin:0 auto;
 }
 
-
+.tablas table th td{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 td {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
