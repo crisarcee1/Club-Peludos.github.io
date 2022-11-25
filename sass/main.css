@@ -435,6 +435,11 @@ h1 {
   background-color: black;
 }
 
+.precio {
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
 .h-index {
   display: flex;
   justify-content: center;
@@ -458,7 +463,7 @@ h1 {
 .galeria img {
   border: 1px solid black;
   border-radius: 15px;
-  margin-top: 5px;
+  margin-top: 25px;
 }
 
 .titulo-fotos {
