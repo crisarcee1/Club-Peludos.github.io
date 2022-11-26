@@ -183,7 +183,6 @@ input:not(.email-index) {
   color: black;
 }
 
-/*Css de blog*/
 #header .header-menu3 ul {
   display: flex;
   list-style: none;
@@ -212,10 +211,9 @@ h1 {
 
 #galeriaBlog {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
   gap: 100px;
-  width: 850px;
-  margin-left: 300px;
+  width: 100%;
   margin-top: 40px;
 }
 #galeriaBlog img {
@@ -223,24 +221,20 @@ h1 {
   height: 300px;
 }
 #galeriaBlog .fotos-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 2px solid black;
   border-radius: 20px;
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
-#galeriaBlog .fotos-blog .pirotecnia {
-  margin-left: 55px;
+#galeriaBlog .fotos-blog h3 {
+  text-align: center;
 }
-#galeriaBlog .fotos-blog .adaptacion {
-  margin-left: 55px;
-}
-#galeriaBlog .fotos-blog .viaje {
-  margin-left: 55px;
-}
-#galeriaBlog .fotos-blog .ansiedad {
-  margin-left: 55px;
-}
-#galeriaBlog .fotos-blog .bozal {
-  margin-left: 40px;
+#galeriaBlog .fotos-blog p {
+  text-align: center;
 }
 #galeriaBlog .fotos-blog .bozal-text {
   text-align: center;
@@ -436,7 +430,7 @@ h1 {
 }
 
 .precio {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-top: 2px;
 }
 
@@ -491,6 +485,10 @@ h1 {
 
 .produ1 {
   margin: -5px;
+}
+
+.nombreProducto {
+  margin-bottom: 0;
 }
 
 .acercate h3 {
@@ -736,14 +734,20 @@ h1 {
     margin-top: 15px;
     border: solid 2px black;
   }
+  .fotos-blog {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
   #galeriaBlog img {
     width: 100px;
     height: 100px;
     border-radius: 25px;
+    gap: 30px;
   }
   #galeriaBlog {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 439px;
     height: auto;
     gap: 1px;
@@ -821,9 +825,13 @@ td {
     padding: 5px 6px;
     font-size: 20px;
   }
+}
+@media (min-width: 465px) and (max-width: 576px) {
   .fotos-blog {
-    width: 199px;
-    height: 390px;
+    width: 90%;
+    height: 254px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
 @media (min-width: 576px) and (max-width: 1440px) {
@@ -927,20 +935,6 @@ td {
     margin: 1px 1px;
     padding: 5px 6px;
     font-size: 15px;
-  }
-}
-@media (max-width: 419px) {
-  .fotos-blog {
-    width: 159px;
-    height: 480px;
-    margin-left: 5px;
-  }
-  #galeriaBlog img {
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
-    margin-left: 28px;
-    gap: 30px;
   }
 }
 @media (max-width: 370px) {
@@ -1119,12 +1113,12 @@ td {
   #galeriaBlog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 439px;
-    gap: 100px;
+    width: 100%;
+    gap: 30px;
     margin: 12px auto;
   }
   .fotos-blog {
-    width: 210px;
+    width: auto;
     height: 390px;
   }
   h1 {
