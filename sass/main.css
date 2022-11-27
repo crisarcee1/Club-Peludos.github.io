@@ -599,6 +599,10 @@ h1 {
   margin-top: 14px;
 }
 
+.CajitasGaleriaDos {
+  width: 30%;
+}
+
 @media (max-width: 576px) {
   .contenedor-gral {
     width: 100%;
