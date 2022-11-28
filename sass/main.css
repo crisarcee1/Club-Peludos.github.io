@@ -41,18 +41,6 @@ label {
   margin-bottom: 0.3rem;
 }
 
-.form input[type=submit] {
-  border-radius: 3px;
-  background-color: black;
-  padding: 0.1;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  cursor: pointer;
-  width: 120px;
-  font-size: 20px;
-  margin-left: 620px;
-}
-
 .form input:not([type=submit]) {
   background-color: transparent;
   padding: 0.5rem;
@@ -63,6 +51,18 @@ label {
   font-size: 20px;
   width: 220px;
   margin-left: 570px;
+}
+
+.form input[type=submit] {
+  border-radius: 3px;
+  background-color: black;
+  padding: 0.1;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  width: 120px;
+  font-size: 20px;
+  margin-left: 620px;
 }
 
 .dudasFormu .DudasForm {
@@ -77,27 +77,6 @@ label {
 
 .nombreContacto {
   margin-left: 0px;
-}
-
-#header .header-menu4 ul {
-  display: flex;
-  list-style: none;
-}
-
-#header .header-menu4 ul li a {
-  text-decoration: none;
-  margin: 1px 5px;
-  margin-right: 100px;
-  background-color: black;
-  color: white;
-  padding: 12px 15px;
-  border-radius: 20px;
-  font-size: 20px;
-}
-
-#header .header-menu4 ul li a:hover {
-  background-color: orange;
-  color: black;
 }
 
 .Equipo .logo__headerEquipo {
@@ -245,27 +224,7 @@ h1 {
 }
 
 /*Css de catalogo*/
-#header .header-menu2 ul {
-  display: flex;
-  list-style: none;
-}
-
-#header .header-menu2 ul li a {
-  text-decoration: none;
-  margin: 1px 5px;
-  margin-right: 100px;
-  background-color: black;
-  color: white;
-  padding: 12px 15px;
-  border-radius: 20px;
-  font-size: 20px;
-}
-#header .header-menu2 ul li a:hover {
-  background-color: orange;
-  color: black;
-}
-
-.h-catalogo h1 {
+h-catalogo h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 35px;
@@ -276,7 +235,7 @@ h1 {
 }
 
 table {
-  width: 50%;
+  width: 100%;
 }
 
 table,
@@ -382,15 +341,6 @@ th {
   text-align: center;
 }
 
-body {
-  background-color: whitesmoke;
-  font-family: "Kanit", sans-serif;
-}
-
-.contenedor-gral {
-  background-color: whitesmoke;
-}
-
 #header {
   width: 100%;
   background-color: rgb(251, 165, 45);
@@ -400,35 +350,132 @@ body {
   align-items: center;
   height: 140px;
 }
+
 #header .header-logo {
   color: wheat;
   padding: 10px 20px;
   width: 100%;
   height: auto;
 }
-#header .LogoH {
-  width: 350px;
-  height: 100px;
-}
+
 #header .header-menu ul {
   display: flex;
   list-style: none;
 }
+
 #header .header-menu ul li a {
   text-decoration: none;
   margin: 2px 5px;
-  margin-right: 97px;
   background-color: black;
   color: white;
   padding: 12px 15px;
   border-radius: 20px;
   font-size: 20px;
 }
+
 #header .header-menu ul li a:hover {
   background-color: orange;
   color: black;
 }
 
+.LogoH {
+  width: 300px;
+  height: 100px;
+}
+
+.titulos {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+}
+
+.info-pirotecnia {
+  color: black;
+  font-size: 35px;
+}
+
+.galeria-info {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-info img {
+  width: 70%;
+  height: auto;
+}
+
+.subtitulos-info {
+  display: block;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.subtitulos-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.ContenidoInformatico {
+  text-align: center;
+  font-size: 35px;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Kanit", sans-serif;
+}
+
+.contenedor-gral {
+  background-color: whitesmoke;
+}
+
+/* #header {
+    width: 100%;
+    background-color: rgba(251, 165, 45, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+ */
+.header-logo {
+  color: wheat;
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.LogoH {
+  width: 350px;
+  height: 100px;
+}
+
+/*  .header-menu ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .header-menu ul li a {
+        text-decoration: none;
+        margin: 2px 5px;
+        margin-right: 97px;
+        background-color: black;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 20px;
+        font-size: 20px;
+
+        &:hover {
+            background-color: orange;
+            color: black;
+        }
+    }
+} 
+ */
 h1 {
   background-color: black;
 }
@@ -539,15 +586,15 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img {
+.pie-pagina .grupo-1 img {
   width: 100px;
 }
-.pie-pagina .grupo-1 .box h2 {
+.pie-pagina .grupo-1 h2 {
   color: #FFF;
   margin-bottom: 25px;
   font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p {
+.pie-pagina .grupo-1 p {
   color: #efefef;
   margin-bottom: 10px;
 }
@@ -563,16 +610,17 @@ h1 {
   text-align: center;
   transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover {
+.pie-pagina .grupo-1 a:hover {
   color: blueviolet;
 }
-.pie-pagina .grupo-2 {
+
+.grupo-2 {
   background-color: black;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-.pie-pagina .grupo-2 small {
+.grupo-2 small {
   font-size: 15px;
 }
 
@@ -872,7 +920,7 @@ td {
     color: white;
     padding: 12px 15px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media (min-width: 768px) and (max-width: 856px) {
@@ -881,9 +929,9 @@ td {
     margin: 2px 3px;
     background-color: black;
     color: white;
-    padding: 12px 5px;
+    padding: 9px 2px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 369px) {
@@ -981,9 +1029,9 @@ td {
   }
   #header .header-menu ul li a {
     padding: 1px 20px;
-    margin-right: 45px;
-    font-size: 25px;
-    margin-left: -2px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 0px;
   }
   .h1-header {
     font-size: 30px;
@@ -1186,6 +1234,11 @@ td {
     border-radius: 8px;
     font-size: 12px;
   }
+  th,
+td {
+    font-size: 15px;
+    padding: 0;
+  }
 }
 @media (max-width: 301px) {
   #header .header-menu4 ul li a {
@@ -1225,13 +1278,6 @@ td {
     padding: 0;
   }
 }
-@media (max-width: 353px) {
-  th,
-td {
-    font-size: 15px;
-    padding: 0;
-  }
-}
 @media (max-width: 276px) {
   td {
     font-size: 10px;
@@ -1265,7 +1311,7 @@ td {
     color: white;
     padding: 12px 15px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
   }
   .bozales {
     margin-left: 10px;

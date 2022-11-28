@@ -20,7 +20,6 @@
             margin-left: -2px;
         }
     }
-
     .texto-secundario {
         text-align: center;
         margin: 0 auto;
@@ -324,7 +323,7 @@
         color: white;
         padding: 12px 15px;
         border-radius: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -334,12 +333,11 @@
         margin: 2px 3px;
         background-color: black;
         color: white;
-        padding: 12px 5px;
+        padding: 9px 2px;
         border-radius: 20px;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
-
 @media (max-width: 369px) {
     .galeria img {
         margin: 1px;
@@ -459,9 +457,9 @@
 
     #header .header-menu ul li a {
         padding: 1px 20px;
-        margin-right: 45px;
-        font-size: 25px;
-        margin-left: -2px;
+        margin-right: 10px;
+        font-size: 20px;
+        margin-left: 0px;
     }
 
     .h1-header {
@@ -705,6 +703,12 @@
         border-radius: 8px;
         font-size: 12px;
     }
+
+    th,
+    td {
+        font-size: 15px;
+        padding: 0;
+    }
 }
 
 @media (max-width: 301px) {
@@ -752,14 +756,6 @@
     }
 }
 
-@media (max-width: 353px) {
-
-    th,
-    td {
-        font-size: 15px;
-        padding: 0;
-    }
-}
 
 @media (max-width: 276px) {
     td {
@@ -791,16 +787,16 @@
         margin-top: 40px;
     }
 
-     #header .header-menu3 ul li a {
+    #header .header-menu3 ul li a {
         text-decoration: none;
         margin: 1px 2px;
         background-color: black;
         color: white;
         padding: 12px 15px;
         border-radius: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
- 
+
     .bozales {
         margin-left: 10px;
     }

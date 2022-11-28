@@ -29,24 +29,13 @@ label {
     margin-left: 25px;
 }
 
+
 .form label {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     display: block;
     margin-bottom: .3rem;
-}
-
-.form input[type="submit"] {
-    border-radius: 3px;
-    background-color: black;
-    padding: 0.1;
-    color: rgba(255, 255, 255, 1);
-    font-weight: bold;
-    cursor: pointer;
-    width: 120px;
-    font-size: 20px;
-    margin-left: 620px;
 }
 
 .form input:not([type="submit"]) {
@@ -60,6 +49,18 @@ label {
     width: 220px;
     margin-left: 570px;
 
+}
+
+.form input[type="submit"] {
+    border-radius: 3px;
+    background-color: black;
+    padding: 0.1;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    font-size: 20px;
+    margin-left: 620px;
 }
 
 .dudasFormu .DudasForm {

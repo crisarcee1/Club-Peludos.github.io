@@ -1,47 +1,28 @@
 /*Css de catalogo*/
-#header .header-menu2 ul {
-    display: flex;
-    list-style: none;
+
+h-catalogo h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 10px;
 }
 
-#header .header-menu2 ul li a {
-    text-decoration: none;
-    margin: 1px 5px;
-    margin-right: 100px;
-    background-color: black;
-    color: white;
-    padding: 12px 15px;
-    border-radius: 20px;
-    font-size: 20px;
-
-    &:hover {
-        background-color: orange;
-        color: black;
-    }
-}
-
-.h-catalogo h1 {
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    margin-bottom: 10px;
-}
 table {
-  width: 50%;
+  width: 100%;
 }
+
 table,
 th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.tablas table th td{
+.tablas table th td {
   display: flex;
   justify-content: center;
   margin: 0 auto;

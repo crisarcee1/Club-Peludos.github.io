@@ -8,6 +8,7 @@
 @import 'equipo';
 @import 'blog';
 @import 'catalogo';
+@import 'pirotecnia';
 
 body {
     background-color: whitesmoke;
@@ -18,56 +19,29 @@ body {
     background-color: whitesmoke;
 }
 
-#header {
-    width: 100%;
-    background-color: rgba(251, 165, 45, 1);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-
     .header-logo {
         color: wheat;
         padding: 10px 20px;
         width: 100%;
         height: auto;
-    }
-    .LogoH{
-        width:350px;
-        height:100px;
+    } 
+
+    .LogoH {
+        width: 350px;
+        height: 100px;
     }
 
-    .header-menu ul {
-        display: flex;
-        list-style: none;
-    }
-
-    .header-menu ul li a {
-        text-decoration: none;
-        margin: 2px 5px;
-        margin-right: 97px;
-        background-color: black;
-        color: white;
-        padding: 12px 15px;
-        border-radius: 20px;
-        font-size: 20px;
-
-        &:hover {
-            background-color: orange;
-            color: black;
-        }
-    }
-}
 
 h1 {
     background-color: black;
 }
-.precio{
-    
+
+.precio {
+
     margin-bottom: 5px;
     margin-top: 2px;
 }
+
 .h-index {
     display: flex;
     justify-content: center;
@@ -121,16 +95,19 @@ h1 {
 .produ1 {
     margin: -5px;
 }
-.nombreProducto{
+
+.nombreProducto {
     margin-bottom: 0;
 }
-.acercate h3{
+
+.acercate h3 {
     display: flex;
     justify-content: center;
     font-size: 23px;
-    margin-top: 20px;   
+    margin-top: 20px;
 }
-.direccionLocal p  {
+
+.direccionLocal p {
     display: flex;
     justify-content: center;
     font-size: 23px;
@@ -159,61 +136,59 @@ h1 {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 45px 0px;
-    }
 
-    .grupo-1 .box figure {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        .box figure {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .grupo-1 .box figure img {
-        width: 100px;
-    }
+        img {
+            width: 100px;
+        }
 
-    .grupo-1 .box h2 {
-        color: #FFF;
-        margin-bottom: 25px;
-        font-size: 20px;
-    }
+        h2 {
+            color: #FFF;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
 
-    .grupo-1 .box p {
-        color: #efefef;
-        margin-bottom: 10px;
-    }
+        p {
+            color: #efefef;
+            margin-bottom: 10px;
+        }
 
-    .grupo-1 .red-social a {
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        color: #fff;
-        margin-right: 10px;
-        background-color: black;
-        text-align: center;
-        transition: all 300ms ease;
-    }
+        .red-social a {
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            margin-right: 10px;
+            background-color: black;
+            text-align: center;
+            transition: all 300ms ease;
+        }
 
-    .grupo-1 .red-social a:hover {
-        color: blueviolet;
-    }
-
-
-    .grupo-2 {
-        background-color: black;
-        padding: 15px 10px;
-        text-align: center;
-        color: #fff;
-    }
-
-    .grupo-2 small {
-        font-size: 15px;
+        a:hover {
+            color: blueviolet;
+        }
     }
 }
 
+.grupo-2 {
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+
+    small {
+        font-size: 15px;
+    }
+}
 
 .whatsapp {
     position: fixed;
@@ -240,7 +215,8 @@ h1 {
     }
 }
 
-.CajitasGaleriaDos{
+.CajitasGaleriaDos {
     width: 30%;
 }
+
 @import 'responsive';
