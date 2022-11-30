@@ -1,3 +1,4 @@
+@import 'mixin';
 @media (max-width: 576px) {
     .contenedor-gral {
         width: 100%;
@@ -35,6 +36,7 @@
         justify-content: center;
         font-size: 22px;
         height: auto;
+        text-align: center;
     }
 
     .p-index p {
@@ -247,7 +249,7 @@
     }
 
     .h-catalogo h1 {
-        height: auto;
+        @include h-catalogo;
     }
 
     table {
@@ -688,7 +690,7 @@
 
 @media (max-width: 1270px) {
     .h-catalogo h1 {
-        height: auto;
+        @include h-catalogo;
     }
 
 }

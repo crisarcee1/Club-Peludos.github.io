@@ -35,14 +35,14 @@ body {
     }
 
     &:hover {
-        color: orange;
-        color: black;
+        color: map-get($colores, principal );
+        color: map-get($colores, secundario );
     }
 
 }
 
 .contenedor-gral {
-    background-color: whitesmoke;
+    background-color: map-get($colores, terciario );
 }
 
 
@@ -85,7 +85,8 @@ h1 {
     font-size: 20px;
 
     a {
-        color: orange;
+    
+     color: map-get($colores, principal );
     }
 }
 

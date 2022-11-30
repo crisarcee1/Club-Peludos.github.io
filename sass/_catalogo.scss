@@ -1,17 +1,18 @@
 /*Css de catalogo*/
 
-h-catalogo h1 {
+.h-catalogo  {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   background-color: black;
-  margin-bottom: 10px;
+ color: white;
+
 }
 
 table {
-  width: 100%;
+  width: 50%;
 }
 
 table,

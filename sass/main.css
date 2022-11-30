@@ -217,18 +217,18 @@ input:not(.email-index) {
 }
 
 /*Css de catalogo*/
-h-catalogo h1 {
+.h-catalogo {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   background-color: black;
-  margin-bottom: 10px;
+  color: white;
 }
 
 table {
-  width: 100%;
+  width: 50%;
 }
 
 table,
@@ -366,6 +366,7 @@ th {
     justify-content: center;
     font-size: 22px;
     height: auto;
+    text-align: center;
   }
   .p-index p {
     font-size: 20px;
@@ -541,6 +542,9 @@ th {
   }
   .h-catalogo h1 {
     height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
   }
   table {
     height: auto;
@@ -905,6 +909,9 @@ td {
 @media (max-width: 1270px) {
   .h-catalogo h1 {
     height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
   }
 }
 @media (max-width: 353px) {
@@ -1050,7 +1057,7 @@ body {
   font-size: 20px;
 }
 #header:hover {
-  color: orange;
+  color: rgb(251, 165, 45);
   color: black;
 }
 
@@ -1114,7 +1121,7 @@ h1 {
   font-size: 20px;
 }
 .ver-mas a {
-  color: orange;
+  color: rgb(251, 165, 45);
 }
 
 .descripcion {
@@ -1270,6 +1277,7 @@ h1 {
     justify-content: center;
     font-size: 22px;
     height: auto;
+    text-align: center;
   }
   .p-index p {
     font-size: 20px;
@@ -1445,6 +1453,9 @@ h1 {
   }
   .h-catalogo h1 {
     height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
   }
   table {
     height: auto;
@@ -1809,6 +1820,9 @@ td {
 @media (max-width: 1270px) {
   .h-catalogo h1 {
     height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
   }
 }
 @media (max-width: 353px) {
