@@ -1,0 +1,14 @@
+/*extend*/
+.textoBlog{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+.textoBlog--center{
+    @extend .textoBlog;
+    text-align: center;
+}
+.textoBlog--right{
+    @extend .textoBlog;
+    text-align: right;
+}

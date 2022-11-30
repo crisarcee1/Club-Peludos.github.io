@@ -8,29 +8,47 @@
 @import 'equipo';
 @import 'blog';
 @import 'catalogo';
-@import 'pirotecnia';
+@import 'responsive';
+@import'mixin';
+@import 'colores';
+@import 'extend';
 
 body {
     background-color: whitesmoke;
     font-family: 'Kanit', sans-serif;
 }
 
+#header {
+    @include header;
+
+    .header-logo {
+        @include header-logo;
+    }
+
+    .header-menu ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li a {
+        @include lista;
+    }
+
+    &:hover {
+        color: orange;
+        color: black;
+    }
+
+}
+
 .contenedor-gral {
     background-color: whitesmoke;
 }
 
-    .header-logo {
-        color: wheat;
-        padding: 10px 20px;
-        width: 100%;
-        height: auto;
-    } 
 
-    .LogoH {
-        width: 350px;
-        height: 100px;
-    }
-
+.LogoH {
+    @include logo;
+}
 
 h1 {
     background-color: black;
@@ -43,23 +61,11 @@ h1 {
 }
 
 .h-index {
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
-    background-color: black;
-    color: white;
-    height: auto;
-    margin-top: 0px;
+    @include h1-index;
 }
 
 .p-index p {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    background-color: black;
-    color: white;
-    height: auto;
-    font-size: 35px;
+    @include p-index;
 }
 
 .galeria img {
@@ -69,12 +75,7 @@ h1 {
 }
 
 .titulo-fotos {
-    width: 220px;
-    margin-left: 50px;
-    height: 280px;
-    border: solid 2px black;
-    border-radius: 5px;
-    background-color: white;
+    @include titulo-fotos;
 }
 
 .ver-mas {
@@ -84,7 +85,7 @@ h1 {
     font-size: 20px;
 
     a {
-        color: rgba(251, 165, 45, 1);
+        color: orange;
     }
 }
 
@@ -115,34 +116,18 @@ h1 {
 }
 
 .iframe-h {
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: auto;
-    margin-top: 20px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    @include iframe;
 }
 
 .pie-pagina {
     width: 100%;
-    background-color: rgba(251, 165, 45, 1);
+    background: map-get($colores, principal);
 
     .grupo-1 {
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 50px;
-        padding: 45px 0px;
+        @include footerG1;
 
         .box figure {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include boxG1;
         }
 
         img {
@@ -161,16 +146,7 @@ h1 {
         }
 
         .red-social a {
-            display: inline-block;
-            text-decoration: none;
-            width: 45px;
-            height: 45px;
-            line-height: 45px;
-            color: #fff;
-            margin-right: 10px;
-            background-color: black;
-            text-align: center;
-            transition: all 300ms ease;
+            @include redes;
         }
 
         a:hover {
@@ -180,10 +156,7 @@ h1 {
 }
 
 .grupo-2 {
-    background-color: black;
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
+@include footerG2;
 
     small {
         font-size: 15px;
@@ -191,18 +164,7 @@ h1 {
 }
 
 .whatsapp {
-    position: fixed;
-    width: 50px;
-    height: 51px;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 25px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+    @include whatsapp;
 
     .whatsapp:hover {
         text-decoration: none;
