@@ -35,14 +35,14 @@ body {
     }
 
     &:hover {
-        color: map-get($colores, principal );
-        color: map-get($colores, secundario );
+        color: map-get($colores, principal);
+        color: map-get($colores, secundario);
     }
 
 }
 
 .contenedor-gral {
-    background-color: map-get($colores, terciario );
+    background-color: map-get($colores, terciario);
 }
 
 
@@ -85,8 +85,8 @@ h1 {
     font-size: 20px;
 
     a {
-    
-     color: map-get($colores, principal );
+
+        color: map-get($colores, principal);
     }
 }
 
@@ -157,7 +157,7 @@ h1 {
 }
 
 .grupo-2 {
-@include footerG2;
+    @include footerG2;
 
     small {
         font-size: 15px;
