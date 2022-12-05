@@ -5,9 +5,11 @@
         width: 100%;
         height: auto;
     }
-    .subtitulo-info{
+
+    .subtitulo-info {
         text-align: center;
     }
+
     #header9 {
         width: 100%;
         background-color: rgba(251, 165, 45, 1);
@@ -45,14 +47,17 @@
 
         }
     }
-    ul{
+
+    ul {
         text-align: center;
     }
+
     .info-pirotecnia {
         font-size: 20px;
         text-align: center;
         font-weight: bold;
     }
+
     .infoPirotecnia {
         font-size: 18px;
         text-align: center;
@@ -76,6 +81,7 @@
     .galeria-info {
         margin-top: 10px;
     }
+
     #header {
         flex-direction: column;
         height: 50%;
@@ -311,6 +317,7 @@
         height: 35px;
         font-size: 10px;
         margin-bottom: 10px;
+        border: 1px solid black;
     }
 
     .form input[type="submit"] {
@@ -364,9 +371,10 @@
 }
 
 @media(min-width:576px)and (max-width:1440px) {
-    .subtitulo-info{
+    .subtitulo-info {
         text-align: center;
     }
+
     #header9 {
         width: 100%;
         background-color: rgba(251, 165, 45, 1);
@@ -428,12 +436,14 @@
     .galeria-info {
         margin-top: 10px;
     }
+
     .form input:not([type="submit"]) {
         margin: 0px auto;
         width: 175px;
         height: 35px;
         font-size: 10px;
         margin-bottom: 10px;
+        border: 1px solid black;
     }
 
     .h-equipo h1 {
@@ -579,6 +589,7 @@
         width: 768px;
         height: auto;
     }
+
     .header-logo2 img {
         width: 100%;
     }
@@ -797,7 +808,7 @@
     }
 }
 
-    /*responsive de contacto y equipo*/
+/*responsive de contacto y equipo*/
 
 
 @media (max-width: 1270px) and (min-width:868px) {
@@ -928,6 +939,7 @@
         padding: 35px 0px;
     }
 }
+
 @media (min-width:576px) and (max-width:895px) {
     #header9 {
         width: 100%;
@@ -938,6 +950,7 @@
 
     }
 }
+
 /*responsive de contacto mobile*/
 @media(min-width:768px)and (max-width:1440px) {
     #galeriaBlog {

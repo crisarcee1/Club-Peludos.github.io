@@ -591,6 +591,15 @@ th {
   color: black;
 }
 
+.extras {
+  text-align: center;
+}
+.extras a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
 .titulos {
   display: flex;
   justify-content: center;
@@ -937,6 +946,7 @@ li {
     height: 35px;
     font-size: 10px;
     margin-bottom: 10px;
+    border: 1px solid black;
   }
   .form input[type=submit] {
     margin: 0px auto;
@@ -1041,6 +1051,7 @@ td {
     height: 35px;
     font-size: 10px;
     margin-bottom: 10px;
+    border: 1px solid black;
   }
   .h-equipo h1 {
     display: flex;

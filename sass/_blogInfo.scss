@@ -36,6 +36,15 @@
 
 }
 
+.extras {
+    text-align: center;
+
+    a:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+}
 
 .titulos {
     display: flex;
@@ -89,9 +98,11 @@ ul li {
     list-style: none;
     font-weight: bolder;
 }
-p{
+
+p {
     text-align: center;
 }
+
 li {
     list-style: none;
 }
@@ -117,9 +128,9 @@ li {
 .perrito {
     width: 100%;
     height: auto;
-} 
+}
 
-.iframe{
+.iframe {
     display: flex;
     justify-content: center;
 }
