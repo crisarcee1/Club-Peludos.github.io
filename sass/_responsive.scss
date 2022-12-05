@@ -5,7 +5,72 @@
         width: 100%;
         height: auto;
     }
+    #header9 {
+        width: 100%;
+        background-color: rgba(251, 165, 45, 1);
+        height: auto;
+        flex-direction: column;
+        height: 50%;
 
+        .header-logo {
+            color: wheat;
+            padding: 10px 20px;
+            width: 100%;
+            height: auto;
+        }
+
+        .header-menu5 ul {
+            display: flex;
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            margin: 2px 5px;
+            background-color: black;
+            color: white;
+            padding: 12px 5px;
+            border-radius: 15px;
+            font-size: 15px;
+            width: auto;
+            height: auto;
+
+            &:hover {
+                background-color: orange;
+                color: black;
+            }
+
+        }
+    }
+    ul{
+        text-align: center;
+    }
+    .info-pirotecnia {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .infoPirotecnia {
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    .ContenidoInformatico {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .galeria-info {
+        margin-top: 10px;
+    }
     #header {
         flex-direction: column;
         height: 50%;
@@ -294,6 +359,65 @@
 }
 
 @media(min-width:576px)and (max-width:1440px) {
+    #header9 {
+        width: 100%;
+        background-color: rgba(251, 165, 45, 1);
+        height: auto;
+
+        .header-logo {
+            color: wheat;
+            padding: 10px 20px;
+            width: 100%;
+            height: auto;
+        }
+
+        .header-menu5 ul {
+            display: flex;
+            list-style: none;
+        }
+    }
+
+    ul li a {
+        text-decoration: none;
+        margin: 2px 5px;
+        padding: 5px 5px;
+        border-radius: 15px;
+        font-size: 25px;
+        width: auto;
+        height: auto;
+
+        &:hover {
+            background-color: orange;
+            color: black;
+        }
+    }
+
+    .infoPirotecnia {
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .info-pirotecnia {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .ContenidoInformatico {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .galeria-info {
+        margin-top: 10px;
+    }
     .form input:not([type="submit"]) {
         margin: 0px auto;
         width: 175px;
@@ -445,6 +569,9 @@
         width: 768px;
         height: auto;
     }
+    .header-logo2 img {
+        width: 100%;
+    }
 
     #header {
         flex-direction: column;
@@ -463,355 +590,366 @@
         margin-top: 19px;
         align-items: center;
         margin-left: 25px;
-        }
-        #header .header-logo img {
-            width: 100%;
-            height: auto;
-        }
+    }
 
-        #header .header-menu ul li a {
-            padding: 1px 20px;
-            margin-right: 10px;
-            font-size: 20px;
-            margin-left: 0px;
-        }
+    #header .header-logo img {
+        width: 100%;
+        height: auto;
+    }
 
-        .h1-header {
-            font-size: 30px;
-            text-align: left;
-            height: 38px;
-            text-align: center;
-        }
+    #header .header-menu ul li a {
+        padding: 1px 20px;
+        margin-right: 10px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
 
-        .parrafo-index {
-            font-size: 25px;
-        }
+    .h1-header {
+        font-size: 30px;
+        text-align: left;
+        height: 38px;
+        text-align: center;
+    }
 
-        #galeria {
-            width: 50%;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 80px;
-            margin-top: 19px;
+    .parrafo-index {
+        font-size: 25px;
+    }
+
+    #galeria {
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px;
+        margin-top: 19px;
+        align-items: center;
+        margin-left: 25px;
+
+        img {
+            margin: 18px;
             align-items: center;
-            margin-left: 25px;
-
-            img {
-                margin: 18px;
-                align-items: center;
-                width: 100px;
-                margin-left: 35px;
-            }
-        }
-
-        #galeria img {
-            width: 80px;
-            margin-top: -2px;
-            align-items: center;
-        }
-
-        .titulo-fotos {
-            width: 180px;
-            height: 250px;
-            margin-left: 40px;
-            margin: 0 auto;
-        }
-
-        .info-foto {
-            margin: 0 auto;
-        }
-
-        #galeria2 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            align-items: center;
-            margin: 0 auto;
-
-            img {
-                width: 70px;
-            }
-        }
-
-        .descripcion {
-            font-size: 15px;
-        }
-
-        .precio-producto {
-            margin-left: 5px;
-            font-size: 25px;
-            text-align: center;
-            margin-top: -15px;
-            display: block;
-        }
-
-        .produ {
-            display: block;
-            margin-top: -5px;
-        }
-
-        .produ1 {
-            display: block;
-        }
-
-        .regalo {
-            font-size: 20px;
-        }
-
-        .ahorra {
-            font-size: 20px;
-        }
-
-        h4 {
-            font-size: 17px;
-            margin-top: -15px;
-        }
-
-        .produ2 {
-            margin-top: -25px;
-        }
-
-        .ig {
-            margin-left: 325px;
-        }
-
-        .direccion {
-            font-size: 19px;
-            text-align: center;
-        }
-
-        .h2-index {
-            font-size: 25px;
-            height: 100%;
-            background-color: transparent;
-            color: black;
-            text-align: center;
-            margin: 2 auto;
-        }
-
-        h5 {
-            font-size: 22px;
-            height: 20px;
-            background-color: transparent;
-            color: black;
-            text-align: center;
-            margin-left: 0px;
-        }
-
-        .input-index {
-            font-size: 19px;
-            height: 20px;
-            background-color: transparent;
-        }
-
-        .parrafo-footer {
-            font-size: 10px;
-            text-align: center;
-        }
-
-        footer {
-            font-size: 10px;
-            text-align: center;
-        }
-
-        p.footer-nombre {
-            font-size: 15px;
-        }
-
-        footer img {
-            width: 20%;
-        }
-
-        .titulo-fotos {
-            margin-top: 15px;
-            border: solid 2px black;
-        }
-
-
-
-        /*responsive tablet de blog*/
-        #header .header-menu3 ul li a {
-            margin: 1px 15px;
-            padding: 5px 6px;
-            font-size: 25px;
-        }
-
-        #galeriaBlog img {
             width: 100px;
-            height: 100px;
-        }
-
-        #galeriaBlog {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            width: 100%;
-            gap: 30px;
-            margin: 12px auto;
-        }
-
-        .fotos-blog {
-            width: auto;
-            height: 390px;
-        }
-
-        h1 {
-            font-size: 22px;
-            height: auto;
-        }
-
-        /*responsive de contacto y equipo*/
-    }
-
-    @media (max-width: 1270px) and (min-width:868px) {
-        #header .header-menu4 ul li a {
-            text-decoration: none;
-            margin: 0 auto;
-            background-color: black;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 8px;
-            font-size: 21px;
-            margin-left: 10px;
+            margin-left: 35px;
         }
     }
 
-    @media (max-width: 768px) and (min-width:576px) {
-        #header .header-menu4 ul li a {
-            text-decoration: none;
-            margin: 0 auto;
-            background-color: black;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 8px;
-            font-size: 17px;
-            margin-left: 16px;
+    #galeria img {
+        width: 80px;
+        margin-top: -2px;
+        align-items: center;
+    }
+
+    .titulo-fotos {
+        width: 180px;
+        height: 250px;
+        margin-left: 40px;
+        margin: 0 auto;
+    }
+
+    .info-foto {
+        margin: 0 auto;
+    }
+
+    #galeria2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        margin: 0 auto;
+
+        img {
+            width: 70px;
         }
     }
 
-    @media (max-width: 868px) and (min-width:768px) {
-        #header .header-menu4 ul li a {
-            text-decoration: none;
-            margin: 0 auto;
-            background-color: black;
-            color: white;
-            padding: 5px 2px;
-            border-radius: 8px;
-            font-size: 20px;
-            margin-left: 16px;
-        }
+    .descripcion {
+        font-size: 15px;
     }
 
-    @media (max-width: 1270px) {
-        .h-catalogo h1 {
-            @include h-catalogo;
-        }
-
+    .precio-producto {
+        margin-left: 5px;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -15px;
+        display: block;
     }
 
-    @media (max-width: 353px) {
-        #header .header-menu4 ul li a {
-            text-decoration: none;
-            margin: 0 auto;
-            background-color: black;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 8px;
-            font-size: 12px;
-        }
-
-        th,
-        td {
-            font-size: 15px;
-            padding: 0;
-        }
+    .produ {
+        display: block;
+        margin-top: -5px;
     }
 
-    @media (max-width: 301px) {
-        #header .header-menu4 ul li a {
-            text-decoration: none;
-            margin: 0 auto;
-            background-color: black;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 8px;
-            font-size: 10px;
-        }
+    .produ1 {
+        display: block;
     }
 
-    @media (max-width: 304px) {
-        .h-equipo h1 {
-            font-size: 15px;
-            height: auto;
-        }
+    .regalo {
+        font-size: 20px;
     }
 
-    @media (max-width: 228px) {
-        .h-equipo h1 {
-            font-size: 12px;
-            height: 12px;
-        }
+    .ahorra {
+        font-size: 20px;
     }
 
-    /*Responsive mobile de catalogo*/
-    @media (max-width: 454px) {
-
-        th,
-        td {
-            font-size: 22px;
-            padding: 0;
-        }
+    h4 {
+        font-size: 17px;
+        margin-top: -15px;
     }
 
-    @media (max-width: 382px) {
+    .produ2 {
+        margin-top: -25px;
+    }
 
-        th,
-        td {
-            font-size: 20px;
-            padding: 0;
-        }
+    .ig {
+        margin-left: 325px;
+    }
+
+    .direccion {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .h2-index {
+        font-size: 25px;
+        height: 100%;
+        background-color: transparent;
+        color: black;
+        text-align: center;
+        margin: 2 auto;
+    }
+
+    h5 {
+        font-size: 22px;
+        height: 20px;
+        background-color: transparent;
+        color: black;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .input-index {
+        font-size: 19px;
+        height: 20px;
+        background-color: transparent;
+    }
+
+    .parrafo-footer {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    p.footer-nombre {
+        font-size: 15px;
+    }
+
+    footer img {
+        width: 20%;
+    }
+
+    .titulo-fotos {
+        margin-top: 15px;
+        border: solid 2px black;
     }
 
 
-    @media (max-width: 276px) {
-        td {
-            font-size: 10px;
-        }
 
-        .celdas img {
-            width: 40px;
-        }
+    /*responsive tablet de blog*/
+    #header .header-menu3 ul li a {
+        margin: 1px 15px;
+        padding: 5px 6px;
+        font-size: 25px;
     }
 
-    @media screen and (max-width:800px) {
-        .pie-pagina .grupo-1 {
-            width: 90%;
-            grid-template-columns: repeat(1, 1fr);
-            grid-gap: 30px;
-            padding: 35px 0px;
-        }
+    #galeriaBlog img {
+        width: 100px;
+        height: 100px;
     }
 
-    /*responsive de contacto mobile*/
-    @media(min-width:768px)and (max-width:1440px) {
-        #galeriaBlog {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 100px;
-            width: 765px;
-            margin: 0 auto;
-            margin-top: 40px;
-        }
-
-        #header .header-menu3 ul li a {
-            text-decoration: none;
-            margin: 1px 2px;
-            background-color: black;
-            color: white;
-            padding: 12px 15px;
-            border-radius: 20px;
-            font-size: 15px;
-        }
-
-        .bozales {
-            margin-left: 10px;
-        }
+    #galeriaBlog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 30px;
+        margin: 12px auto;
     }
+
+    .fotos-blog {
+        width: auto;
+        height: 390px;
+    }
+
+    h1 {
+        font-size: 22px;
+        height: auto;
+    }
+}
+
+    /*responsive de contacto y equipo*/
+
+
+@media (max-width: 1270px) and (min-width:868px) {
+    #header .header-menu4 ul li a {
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 8px;
+        font-size: 21px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) and (min-width:576px) {
+    #header .header-menu4 ul li a {
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 8px;
+        font-size: 17px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 868px) and (min-width:768px) {
+    #header .header-menu4 ul li a {
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 5px 2px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .h-catalogo h1 {
+        @include h-catalogo;
+    }
+
+}
+
+@media (max-width: 353px) {
+    #header .header-menu4 ul li a {
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        font-size: 15px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 301px) {
+    #header .header-menu4 ul li a {
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 304px) {
+    .h-equipo h1 {
+        font-size: 15px;
+        height: auto;
+    }
+}
+
+@media (max-width: 228px) {
+    .h-equipo h1 {
+        font-size: 12px;
+        height: 12px;
+    }
+}
+
+/*Responsive mobile de catalogo*/
+@media (max-width: 454px) {
+
+    th,
+    td {
+        font-size: 22px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 382px) {
+
+    th,
+    td {
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 276px) {
+    td {
+        font-size: 10px;
+    }
+
+    .celdas img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+@media (min-width:576px) and (max-width:895px) {
+    #header9 {
+        width: 100%;
+        background-color: rgba(251, 165, 45, 1);
+        height: auto;
+        flex-direction: column;
+        height: 50%;
+
+    }
+}
+/*responsive de contacto mobile*/
+@media(min-width:768px)and (max-width:1440px) {
+    #galeriaBlog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+        width: 765px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    #header .header-menu3 ul li a {
+        text-decoration: none;
+        margin: 1px 2px;
+        background-color: black;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    .bozales {
+        margin-left: 10px;
+    }
+}

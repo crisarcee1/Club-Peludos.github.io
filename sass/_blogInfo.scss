@@ -1,0 +1,120 @@
+#header9 {
+    width: 100%;
+    background-color: rgba(251, 165, 45, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+
+    .header-logo {
+        color: wheat;
+        padding: 10px 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-menu5 ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        margin: 2px 5px;
+        background-color: black;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 20px;
+        font-size: 20px;
+
+        &:hover {
+            background-color: orange;
+            color: black;
+        }
+    }
+
+}
+
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+
+}
+
+.info-pirotecnia {
+    color: black;
+    font-size: 35px;
+}
+
+.galeria-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+.subtitulos-info {
+    display: block;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ContenidoInformatico {
+    text-align: center;
+    font-size: 35px;
+}
+
+ul li {
+    text-align: center;
+
+}
+
+.AyudaLi {
+    list-style: none;
+    font-weight: bolder;
+}
+
+li {
+    list-style: none;
+}
+
+.info-adaptacion {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.info-ansiedad {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ansiedad,
+.adaptacion,
+.pirotecnia {
+    background-color: whitesmoke;
+}
+
+.perrito {
+    width: 100%;
+    height: auto;
+} 
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}

@@ -1,17 +1,12 @@
+@import 'colores';
+@import 'extend';
+@import'mixin';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-@import 'contacto';
-@import 'equipo';
-@import 'blog';
-@import 'catalogo';
-@import 'responsive';
-@import'mixin';
-@import 'colores';
-@import 'extend';
 
 body {
     background-color: whitesmoke;
@@ -52,6 +47,7 @@ body {
 
 h1 {
     background-color: black;
+    text-align: center;
 }
 
 .precio {
@@ -181,5 +177,11 @@ h1 {
 .CajitasGaleriaDos {
     width: 30%;
 }
+
+@import 'contacto';
+@import 'equipo';
+@import 'blog';
+@import 'catalogo';
+@import 'blogInfo';
 
 @import 'responsive';
