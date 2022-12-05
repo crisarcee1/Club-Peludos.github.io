@@ -50,6 +50,9 @@
 .info-pirotecnia {
     color: black;
     font-size: 35px;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 5px;
 }
 
 .galeria-info {
@@ -86,7 +89,9 @@ ul li {
     list-style: none;
     font-weight: bolder;
 }
-
+p{
+    text-align: center;
+}
 li {
     list-style: none;
 }

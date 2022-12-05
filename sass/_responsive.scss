@@ -5,6 +5,9 @@
         width: 100%;
         height: auto;
     }
+    .subtitulo-info{
+        text-align: center;
+    }
     #header9 {
         width: 100%;
         background-color: rgba(251, 165, 45, 1);
@@ -29,7 +32,7 @@
             margin: 2px 5px;
             background-color: black;
             color: white;
-            padding: 12px 5px;
+            padding: 12px 2px;
             border-radius: 15px;
             font-size: 15px;
             width: auto;
@@ -58,6 +61,8 @@
 
     .ContenidoInformatico {
         font-size: 18px;
+        background-color: yellow;
+        text-align: center;
     }
 
     p {
@@ -359,6 +364,9 @@
 }
 
 @media(min-width:576px)and (max-width:1440px) {
+    .subtitulo-info{
+        text-align: center;
+    }
     #header9 {
         width: 100%;
         background-color: rgba(251, 165, 45, 1);
@@ -393,18 +401,20 @@
     }
 
     .infoPirotecnia {
-        font-size: 22px;
+        font-size: 25px;
         text-align: center;
 
     }
 
     .info-pirotecnia {
-        font-size: 16px;
+        font-size: 25px;
         font-weight: bold;
     }
 
     .ContenidoInformatico {
-        font-size: 18px;
+        font-size: 25px;
+        text-align: center;
+        background-color: yellow;
     }
 
     p {
