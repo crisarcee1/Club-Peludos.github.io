@@ -460,7 +460,7 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .tablas table th td {
