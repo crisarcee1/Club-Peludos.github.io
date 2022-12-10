@@ -115,13 +115,15 @@
     justify-content: center;
     align-items: center;
 }
-@mixin footerG2{
+
+@mixin footerG2 {
     background-color: black;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
 }
-@mixin h-catalogo{
+
+@mixin h-catalogo {
     height: auto;
     text-align: center;
     color: white;

@@ -1,14 +1,16 @@
 /*extend*/
-.textoBlog{
+.textoBlog {
     background-color: black;
     color: white;
     height: auto;
 }
-.textoBlog--center{
+
+.textoBlog--center {
     @extend .textoBlog;
     text-align: center;
 }
-.textoBlog--right{
+
+.textoBlog--right {
     @extend .textoBlog;
     text-align: right;
 }

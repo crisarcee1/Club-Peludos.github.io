@@ -431,6 +431,7 @@ input:not(.email-index) {
 }
 #galeriaBlog .fotos-blog p {
   text-align: center;
+  padding: 4px;
 }
 #galeriaBlog .fotos-blog .bozal-text {
   text-align: center;
@@ -643,11 +644,6 @@ th {
 
 ul li {
   text-align: center;
-}
-
-.AyudaLi {
-  list-style: none;
-  font-weight: bolder;
 }
 
 p {

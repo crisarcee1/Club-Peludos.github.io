@@ -5,6 +5,5 @@
 - Se adapto el código a SASS.
 
 ------------
-
 ### Autor
 **CHRISTOPHER EZEQUIEL ARCE**
