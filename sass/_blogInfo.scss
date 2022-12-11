@@ -38,6 +38,9 @@
 
 .extras {
     text-align: center;
+    a{
+        display: inherit;
+    }
 
     a:hover {
         color: white;
