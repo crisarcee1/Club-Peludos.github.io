@@ -431,7 +431,6 @@ input:not(.email-index) {
 }
 #galeriaBlog .fotos-blog p {
   text-align: center;
-  padding: 4px;
 }
 #galeriaBlog .fotos-blog .bozal-text {
   text-align: center;
@@ -439,6 +438,11 @@ input:not(.email-index) {
 #galeriaBlog .fotos-blog .leer-mas {
   color: darkblue;
   text-align: center;
+}
+
+.leerMas {
+  display: flex;
+  justify-content: center;
 }
 
 /*Css de catalogo*/
@@ -885,7 +889,7 @@ li {
   }
   .fotos-blog {
     width: 90%;
-    height: 300px;
+    height: 360px;
     margin-bottom: 30px;
   }
   #galeriaBlog img {
@@ -982,7 +986,7 @@ td {
 @media (min-width: 465px) and (max-width: 576px) {
   .fotos-blog {
     width: 90%;
-    height: 254px;
+    height: 310px;
     margin-bottom: 30px;
     text-align: center;
   }
