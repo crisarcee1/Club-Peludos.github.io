@@ -891,6 +891,7 @@ li {
     width: 90%;
     height: 360px;
     margin-bottom: 30px;
+    font-size: 25px;
   }
   #galeriaBlog img {
     width: 100px;
@@ -1038,6 +1039,7 @@ td {
   }
   p {
     font-size: 15px;
+    margin: 10px;
   }
   li {
     font-size: 15px;
